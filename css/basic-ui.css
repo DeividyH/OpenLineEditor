@@ -1,0 +1,75 @@
+.form-label{
+        color:#FFF;
+        font-size:18px;
+        font-family:roboto;
+}
+
+.form-input{
+        height:35px;
+        width:220px;
+        padding: 0 15px 0 15px;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        background-color:#434857;
+        color:#FFF;
+        font-size:15px;
+        font-family:roboto;
+        border:none;
+        outline:none;
+}
+
+.form-input:focus{
+        color:#2A2D38;
+        background-color: #FFF;
+}
+
+.form-btn{
+        padding: 6px 20px 6px 20px;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        font-size:16px;
+        font-family:roboto;
+        border:none;
+        outline:none;
+        color:#1997c6;
+        border:1px solid #1997c6;
+        background-color: #252830;
+        cursor: pointer;
+}
+
+.form-btn:hover{
+        color:#FFF;
+        background-color: #1997c6;
+}
+
+::-webkit-input-placeholder {
+        color: #B4B7C0;
+}
+:-moz-placeholder {
+        color: #B4B7C0;
+}
+::-moz-placeholder {
+        color: #B4B7C0;
+}
+:-ms-input-placeholder {
+        color: #B4B7C0;
+}
+
+::-webkit-input-placeholder:focus {
+        color: #D5D7DE;
+}
+:-moz-placeholder:focus {
+        color: #D5D7DE;
+}
+::-moz-placeholder:focus {
+        color: #D5D7DE;
+}
+:-ms-input-placeholder:focus {
+        color: #D5D7DE;
+}
+
+.alert ul{
+        margin-left:10px;
+}

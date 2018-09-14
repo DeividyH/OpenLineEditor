@@ -1,0 +1,156 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto.ttf);
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html, body{
+	height:100%;
+	width:100%;
+	background-color: #252830;
+}
+
+#conteudo-topo{
+    margin:0 auto;
+    width:1000px;
+    height:65px;
+}
+
+#topo{
+    width:100%;
+	border-bottom: 1px solid #00ABEE;
+    background-color: #171A21;
+}
+
+#logo{
+	float: left;
+	padding-top:5px;	
+}
+
+#logo img{
+	float:left;
+	margin-left:8px;
+}
+
+#logo p{
+	float: right;
+	margin: 5px 0 0 8px;
+	color: #FFF;
+	font-family: roboto;
+	font-size: 30px;
+}
+
+#menu-principal{
+	float:right;
+	margin: 25px 20px 0 0;
+}
+
+#menu-principal ul a{
+	text-decoration:none;
+	list-style:none;
+}
+
+#menu-principal ul li{
+	float:left;
+	margin: 0 20px 0 0; 
+	color: #CDD2D8;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	font-family: roboto;
+}
+
+#menu-principal ul li:hover{
+	color: #00ABED;
+}
+
+#conteudo-geral{
+	height: calc(100% - 66px);
+}
+
+#conteudo-pagina{
+	margin:40px auto;
+	width:1000px;
+}
+
+#titulo-pagina{
+	font-size:32px;
+	text-transform:uppercase;
+	color:#337AB7;
+	font-family:roboto;
+}
+
+#map{ 
+	height: 100%;
+	width: 100%;
+}
+
+#logo-user-painel{
+	width:30px;
+	height:30px;
+	margin:0 50px 0 0;
+	background:url('../images/olg_logo.png') no-repeat;
+	background-size: 30px 30px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#lista-tutorial{
+
+}
+
+#lista-tutorial li{
+	list-style: none !important;
+	color: #337ab7;
+	margin-left: 45px;
+}
+
+#lista-tutorial li:first-child{
+	list-style: none !important;
+	color: #337ab7 !important;
+	font-weight: bold !important;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+#lista-tutorial li:before{
+	content: '#';
+	margin-right: 7px;
+	opacity: 0.4;
+}
+
+#lista-tutorial li a{
+	text-decoration: none !important;
+}
+
+#lista-tutorial li a:hover{
+	text-decoration: none !important;
+}
+
+.tutorial-content{
+	margin-top: 30px;
+}
+
+.tutorial-content h2:before{
+	content: '#';
+	color: #337ab7;
+	opacity: 0.5;
+	margin-right: 10px;
+}
+
+.tutorial-content p{
+	margin-left: 30px;
+}
+
+.tutorial-content ul{
+	margin-left: 80px;
+}
+
+.tutorial-content ul li ul{
+	margin-left: 30px;
+}
